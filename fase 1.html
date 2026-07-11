@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Projeto 41 - nao desista.</title>
+
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>FASE 1</h1>
+
+<p class="frase">
+
+Algo está se repetindo.
+
+</p>
+
+<input
+type="password"
+id="senha"
+placeholder="Digite a resposta">
+
+<br><br>
+
+<button onclick="verificar()">
+
+ENTRAR
+
+</button>
+
+</div>
+
+<script>
+
+function verificar(){
+
+var senha=document.getElementById("senha").value;
+
+if(senha=="41"){
+
+window.location.href="fase2.html";
+
+}else{
+
+alert("Resposta incorreta.");
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
